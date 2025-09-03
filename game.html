@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="game.css">
+    <title>javascipt tutorial</title>
+  </head>
+  <body>
+    <h1>javascript project</h1>
+    <h2>Welcome to Rock Paper Scissors Game, select your choice:</h2>
+      <input type="radio" name="choice" id="rock" value="Rock">
+      <label for="rock">Rock</label><br><br>
+      <input type="radio" name="choice" id="paper" value="Paper">
+      <label for="paper">Paper</label><br><br>
+      <input type="radio" name="choice" id="scissors" value="Scissors">
+      <label for="scissors">Scissors</label><br><br>
+      <button id="confirm">Confirm</button>
+      <h3 id="result"></h3>
+      <div id="scoreboard">
+        <p class="p-i-styled">playerScore : <span id="player-score">0</span></p>
+        <p class="p-i-styled">computerScore : <span id="computer-score">0</span></p>
+      </div>
+      <strong><p id="final-message"></p></strong>
+      <script src="./game.js"></script>
+  </body>
+</html>
